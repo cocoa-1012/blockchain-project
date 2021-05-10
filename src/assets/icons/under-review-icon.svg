@@ -1,0 +1,21 @@
+var _path, _path2;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgUnderReviewIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    viewBox: "0 0 46 44",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M45.886 42.494l-22-42c-.345-.659-1.427-.659-1.771 0l-22 42A1 1 0 001 43.958h44a1 1 0 00.886-1.464z",
+    fill: "#EFD358"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M22 16.958a1 1 0 012 0v13a1 1 0 01-2 0v-13zm1 21a2 2 0 11-.002-3.999 2 2 0 01.002 4z",
+    fill: "#fff"
+  })));
+}
+
+export default SvgUnderReviewIcon;

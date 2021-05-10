@@ -1,0 +1,64 @@
+var _path, _path2, _path3, _path4, _defs;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgCreateAudioIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 92,
+    height: 92,
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M44.231.2C19.43 1.137.167 22.306.167 47.125V83.5A8.333 8.333 0 008.5 91.833h10.417a6.25 6.25 0 006.25-6.25v-25a6.25 6.25 0 00-6.25-6.25H8.5v-7.412c0-20.296 15.758-37.625 36.042-38.394A37.542 37.542 0 0183.5 46v8.333H73.083a6.25 6.25 0 00-6.25 6.25v25a6.25 6.25 0 006.25 6.25H83.5a8.333 8.333 0 008.333-8.333V46A45.885 45.885 0 0044.231.2z",
+    fill: "url(#create-audio-icon_svg__paint0_linear)"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M18.917 54.333h-6.25v37.5h6.25a6.25 6.25 0 006.25-6.25v-25a6.25 6.25 0 00-6.25-6.25z",
+    fill: "url(#create-audio-icon_svg__paint1_linear)"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M73.083 54.333h6.25v37.5h-6.25a6.25 6.25 0 01-6.25-6.25v-25a6.25 6.25 0 016.25-6.25z",
+    fill: "url(#create-audio-icon_svg__paint2_linear)"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M12.667 54.333H8.5v37.5h4.167v-37.5zM83.5 54.333h-4.167v37.5H83.5v-37.5z",
+    fill: "#AAFA2B"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "create-audio-icon_svg__paint0_linear",
+    x1: 0.167,
+    y1: 0.168,
+    x2: 91.832,
+    y2: 91.834,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFF61F"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#19FF3E"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "create-audio-icon_svg__paint1_linear",
+    x1: 12.667,
+    y1: 54.333,
+    x2: 35.167,
+    y2: 61.833,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFF61F"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#19FF3E"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "create-audio-icon_svg__paint2_linear",
+    x1: 66.833,
+    y1: 54.333,
+    x2: 89.333,
+    y2: 61.833,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFF61F"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#19FF3E"
+  })))));
+}
+
+export default SvgCreateAudioIcon;

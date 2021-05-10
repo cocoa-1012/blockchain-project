@@ -1,0 +1,61 @@
+var _path, _path2, _path3, _defs;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgCreate3DIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 90,
+    height: 101,
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M45 42l45-21.49L47.053.459a4.835 4.835 0 00-4.109 0L0 20.513 45 42z",
+    fill: "url(#create-3d-icon_svg__paint0_linear)"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M45 40.61v60.015l42.03-18.68a4.997 4.997 0 002.97-4.57v-57.22L45 40.61z",
+    fill: "url(#create-3d-icon_svg__paint1_linear)"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M45 40.61L0 20.155v57.22a5 5 0 002.97 4.57L45 100.625V40.61z",
+    fill: "url(#create-3d-icon_svg__paint2_linear)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "create-3d-icon_svg__paint0_linear",
+    x1: 45,
+    y1: 0,
+    x2: 45,
+    y2: 42,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#4200FF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#C0F"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "create-3d-icon_svg__paint1_linear",
+    x1: 90,
+    y1: 79.5,
+    x2: 45,
+    y2: 37.5,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#4200FF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#C0F"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "create-3d-icon_svg__paint2_linear",
+    x1: 22.5,
+    y1: 20.155,
+    x2: 22.5,
+    y2: 100.625,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#4200FF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#C0F"
+  })))));
+}
+
+export default SvgCreate3DIcon;

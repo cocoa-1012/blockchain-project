@@ -1,0 +1,42 @@
+var _rect, _rect2, _defs;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgCreateImageIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 109,
+    height: 125,
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 0.993,
+    width: 107.014,
+    height: 125,
+    rx: 10,
+    fill: "url(#create-image-icon_svg__paint0_linear)"
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    opacity: 0.4,
+    x: 13.583,
+    y: 11.691,
+    width: 81.835,
+    height: 85.432,
+    rx: 10,
+    fill: "#fff"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "create-image-icon_svg__paint0_linear",
+    x1: 0.993,
+    y1: 0,
+    x2: 124.499,
+    y2: 105.736,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFF61F"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#FFCC19"
+  })))));
+}
+
+export default SvgCreateImageIcon;

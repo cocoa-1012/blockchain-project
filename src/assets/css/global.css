@@ -1,0 +1,69 @@
+:root {
+  /* Stops the @reach/dialog styles warning in dev */
+  --reach-dialog: 1;
+}
+
+body {
+  opacity: 1;
+}
+
+.draggable {
+  cursor: move;
+  z-index: 9999;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body,
+#__next {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.slider-control-bottomcenter {
+  transform: translateX(0) !important;
+}
+
+@media only screen and (max-width: 52em) {
+  .has-auth-header {
+    padding-bottom: 96px;
+  }
+}
+
+.safari .center-box {
+  display: block;
+}
+
+.slider-frame {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+[data-reach-dialog-content] {
+  outline: none;
+}
+
+[data-tippy-root] {
+  z-index: 900 !important;
+}
+
+.body-fixed {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+}

@@ -1,0 +1,34 @@
+var _path, _path2, _defs;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgCreateVideoIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 116,
+    height: 84,
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M107.625 0H7.875A7.875 7.875 0 000 7.875v68.25A7.875 7.875 0 007.875 84h99.75a7.872 7.872 0 007.875-7.875V7.875A7.875 7.875 0 00107.625 0z",
+    fill: "url(#create-video-icon_svg__paint0_linear)"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M74.957 44.184l-23.625 15.75a2.624 2.624 0 01-4.082-2.184v-31.5a2.624 2.624 0 014.082-2.184l23.625 15.75a2.624 2.624 0 010 4.368z",
+    fill: "#fff"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "create-video-icon_svg__paint0_linear",
+    x1: 0,
+    y1: 0,
+    x2: 79.913,
+    y2: 109.881,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FD22AD"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#ED5655"
+  })))));
+}
+
+export default SvgCreateVideoIcon;
